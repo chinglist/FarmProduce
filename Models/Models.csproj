@@ -41,6 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="t_address.cs" />
+    <Compile Include="t_image.cs" />
+    <Compile Include="t_logistics.cs" />
+    <Compile Include="t_message_board.cs" />
+    <Compile Include="t_notice.cs" />
+    <Compile Include="t_orders.cs" />
+    <Compile Include="t_order_products.cs" />
+    <Compile Include="t_products.cs" />
+    <Compile Include="t_shopping_car.cs" />
     <Compile Include="t_user.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

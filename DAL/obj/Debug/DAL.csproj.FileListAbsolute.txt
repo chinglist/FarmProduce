@@ -1,0 +1,14 @@
+C:\Users\Administrator\FarmProduce\DAL\bin\Debug\DAL.dll.config
+C:\Users\Administrator\FarmProduce\DAL\bin\Debug\DAL.dll
+C:\Users\Administrator\FarmProduce\DAL\bin\Debug\DAL.pdb
+C:\Users\Administrator\FarmProduce\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\FarmProduce\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\FarmProduce\DAL\bin\Debug\Models.dll
+C:\Users\Administrator\FarmProduce\DAL\bin\Debug\Models.pdb
+C:\Users\Administrator\FarmProduce\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\FarmProduce\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\FarmProduce\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Administrator\FarmProduce\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\FarmProduce\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Administrator\FarmProduce\DAL\obj\Debug\DAL.dll
+C:\Users\Administrator\FarmProduce\DAL\obj\Debug\DAL.pdb

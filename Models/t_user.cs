@@ -1,132 +1,85 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Data;
 using System.Text;
-using System.Threading.Tasks;
-
+using System.Data.SqlClient;
 namespace Models
 {
-    /// <summary>
-	/// t_user:实体类(属性说明自动提取数据库字段的描述信息)
+	/// <summary>
+	/// 类t_user。
 	/// </summary>
 	[Serializable]
-    public partial class t_user
-    {
-        public t_user()
-        { }
-        #region Model
-        private Guid _id;
-        private string _name;
-        private Guid? _specialty_id;
-        private string _specialty_name;
-        private string _header_photo;
-        private int? _sex;
-        private int? _grade;
-        private string _contact;
-        private string _number;
-        private string _un;
-        private string _pwd;
-        private int? _type;
-        public Guid? class_id { get; set; }
-        public string class_name { get; set; }
-        public int age { get; set; }
-        /// <summary>
-        /// 
-        /// </summary>
-        public Guid id
-        {
-            set { _id = value; }
-            get { return _id; }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string name
-        {
-            set { _name = value; }
-            get { return _name; }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public Guid? specialty_id
-        {
-            set { _specialty_id = value; }
-            get { return _specialty_id; }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string specialty_name
-        {
-            set { _specialty_name = value; }
-            get { return _specialty_name; }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string header_photo
-        {
-            set { _header_photo = value; }
-            get { return _header_photo; }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int? sex
-        {
-            set { _sex = value; }
-            get { return _sex; }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int? grade
-        {
-            set { _grade = value; }
-            get { return _grade; }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string contact
-        {
-            set { _contact = value; }
-            get { return _contact; }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string number
-        {
-            set { _number = value; }
-            get { return _number; }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string un
-        {
-            set { _un = value; }
-            get { return _un; }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public string pwd
-        {
-            set { _pwd = value; }
-            get { return _pwd; }
-        }
-        /// <summary>
-        /// 
-        /// </summary>
-        public int? type
-        {
-            set { _type = value; }
-            get { return _type; }
-        }
-        #endregion Model
+	public partial class t_user
+	{
+		public t_user()
+		{}
+		#region Model
+		private Guid _id;
+		private string _name;
+		private int? _sex;
+		private string _phone_no;
+		private string _qq;
+		private string _email;
+		private string _address;
+        public string un { get; set; }
+        public string pwd { get; set; }
+		/// <summary>
+		/// 
+		/// </summary>
+		public Guid id
+		{
+			set{ _id=value;}
+			get{return _id;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public string name
+		{
+			set{ _name=value;}
+			get{return _name;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public int? sex
+		{
+			set{ _sex=value;}
+			get{return _sex;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public string phone_no
+		{
+			set{ _phone_no=value;}
+			get{return _phone_no;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public string QQ
+		{
+			set{ _qq=value;}
+			get{return _qq;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public string email
+		{
+			set{ _email=value;}
+			get{return _email;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public string address
+		{
+			set{ _address=value;}
+			get{return _address;}
+		}
+		#endregion Model
 
-    }
+	}
 }
+

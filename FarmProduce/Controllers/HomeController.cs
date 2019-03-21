@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BLL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,8 +9,10 @@ namespace FarmProduce.Controllers
 {
     public class HomeController : Controller
     {
+        User user = new User();
         public ActionResult Index()
         {
+            var data = user.Select();
             return View();
         }
 
